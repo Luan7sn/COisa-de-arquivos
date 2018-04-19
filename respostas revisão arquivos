@@ -1,0 +1,31 @@
+2 questões de prog
+1 de respostas rapidas
+2 questões discursivas
+	
+
+
+
+
+1)Busca sequencial
+
+2)Busca binária
+
+3)Uma busca sequencial percorre o arquivo desde o começo até encontrar o que foi procurado 1 por 1
+  Uma busca binária realiza uma comparação do dado a ser buscado em relação ao dado que está no meio do arquivo(se for menor que o meio, é realizada novamente uma busca com o "meio" sendo algo novo, dependendo do resultado da busca anterior)
+
+4)Sim, existem casos em que a busca sequencial realiza menos testes que uma binária, como por exemplo se o que for buscado for o primeiro elemento do arquivo
+
+5)Arquvivo binário: São arquivos que contém não apenas dados imprimíveis (como letras e números)
+  Arquivo de texto: São arquivos que contém somente caracteres imprimiveis (apos 32 no ascii)
+
+6)Tamanho variado : As entradas tem seus tamanhos diferentes(cada linha pode ter um tamanho)
+		  Desvantagem: Perco o acesso direto, é mais complicado pegar uma entrada especifica
+  Tamanho fixo: todas as entradas do arquivo tem o mesmo numero de bytes
+
+7)O arquivo do CEP é um arquivo de leitura de tamanho fixo
+
+8)Teremos q usar o método arquivo.seek(arquivo.length())
+
+9)Podemos usar a função f.seek(arquivo,0,SEEK_END)
+
+10)
