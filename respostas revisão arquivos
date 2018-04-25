@@ -13,7 +13,7 @@
 3)Uma busca sequencial percorre o arquivo desde o começo até encontrar o que foi procurado 1 por 1
   Uma busca binária realiza uma comparação do dado a ser buscado em relação ao dado que está no meio do arquivo(se for menor que o meio, é realizada novamente uma busca com o "meio" sendo algo novo, dependendo do resultado da busca anterior)
 
-4)Sim, existem casos em que a busca sequencial realiza menos testes que uma binária, como por exemplo se o que for buscado for o primeiro elemento do arquivo
+4)Sim, porem apenas em seu melhor caso.
 
 5)Arquvivo binário: São arquivos que contém não apenas dados imprimíveis (como letras e números)
   Arquivo de texto: São arquivos que contém somente caracteres imprimiveis (apos 32 no ascii)
