@@ -8,7 +8,7 @@
 
 1)Busca sequencial
 
-2)Busca binária
+2)Busca binária e busca binária
 
 3)Uma busca sequencial percorre o arquivo desde o começo até encontrar o que foi procurado 1 por 1
   Uma busca binária realiza uma comparação do dado a ser buscado em relação ao dado que está no meio do arquivo(se for menor que o meio, é realizada novamente uma busca com o "meio" sendo algo novo, dependendo do resultado da busca anterior)
